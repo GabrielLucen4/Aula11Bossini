@@ -15,7 +15,7 @@
     <body>
         <c:import url="Menu.jsp"/>
         <div id="main" class="container">
-            <h3 class="page-header">Login</h3>
+            <h3 class="page-header">Cadastre-se:</h3>
             <form action="controller.do" method="post">
                 <div class="row col-md-12">
                     <div class="form-group">
@@ -36,16 +36,10 @@
                     </div>
                 </div>
                 <div class="row col-md-12">
-                    <button type="submit" class="btn btn-primary" name="command" value="FazerLogin">
+                    <button type="submit" class="btn btn-primary" name="command" value="Cadastrar">
                         <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-                        Ok
+                        Cadastrar
                     </button>
-                </div>
-                <div class="row col-md-12">
-                    <a class="btn btn-default" href="Cadastro.jsp">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                        Cadastrar-se
-                    </a>
                 </div>
             </form>
         </div>
